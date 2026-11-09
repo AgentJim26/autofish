@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autofish",
+  "version": "${version}",
+  "name": "Dashie's AutoFish",
+  "description": "Cast once manually: auto-reels on bite and recasts until you cancel (switch item or reel early).",
+  "authors": ["Jim for Dashie"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.dashie.autofish.AutoFishClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
